@@ -1,7 +1,7 @@
 # Practice-daily
 C语言练习
 ## 题目：
-### 1.求两个整数的较大值 [demo1]
+### 1.求两个整数的较大值 [demo1](https://github.com/dallmail/Practice-daily/edit/main/demo1)
 ### 2. 0到100可以被整除的数
 ### 3. 鸡兔同笼 
 #### 已知：头共有88个，脚共有244只。
