@@ -13,7 +13,7 @@
 //     printf("请输入第二个整数：\n");
 //     scanf("\n%d", &num2);
 //     /*也可以表示为
-//     int max=(num1>mun2)?num1:num2;
+//     int max=(num1>mun2)?num1:num2;//三元运算符比较
 //     printf("较大的数为:%d\n",max);
 //     */
 //     printf("较大的数为：%d\n", (num1 > num2) ? num1 : num2);
