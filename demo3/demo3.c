@@ -36,7 +36,7 @@
 // }
 
 /* 输入10个数，输出其中的最大值和最小值 */
-// #define P 10
+// #define P 10 // 定义常量P
 // void main()
 // {
 //     int a[P] = {8, 56, 18, 35, 52, 98, 34, 55, 60, 25};
@@ -62,6 +62,28 @@
 // }
 
 /* 冒泡排序 */
-void main()
+#define P 10 // 定义标识符常量P
+int main()
 {
+    int i, j;
+    int a[P] = {5, 8, 3, 7, 21, 9, 10, 2, 12, 14};
+    for (i = 1; i < P - 1; i++)
+    {
+        for (j = 1; i < P - i; j++)
+        {
+            if (a[j] < a[j + 1])
+            {
+                int temp;
+                temp = a[j];
+                a[j] = a[j + 1];
+                a[j + 1] = temp;
+            }
+        }
+    }
+    for (i = 0; i < P; i++)
+    {
+        printf("%d ", a[i]);
+    }
+
+    return 0;
 }
