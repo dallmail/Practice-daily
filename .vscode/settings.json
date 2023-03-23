@@ -2,6 +2,7 @@
     "files.associations": {
         "*.cpp": "c",
         "*.c": "c",
-        "limits": "c"
+        "limits": "c",
+        "stdio.h": "c"
     }
 }
