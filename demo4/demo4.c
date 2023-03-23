@@ -76,7 +76,6 @@
 //         }
 //     }
 //     printf("\n%d ", count);
-
 //     return 0;
 // }
 
@@ -122,9 +121,59 @@
 //     return 0;
 // }
 
-/*  */
-int main()
-{
+/* 函数递归 */
+// void print(unsigned int n)
+// {
+//     if (n > 9)
+//     {
+//         print(n / 10);
+//     }
+//     printf("%d ", n % 10);
+// }
 
-    return 0;
-}
+// int main()
+// {
+//     unsigned int num = 0;
+//     scanf("%d", &num);
+//     print(num);
+//     return 0;
+// }
+
+/* 求字符串长度 */
+// #include <string.h> //strlen()函数的函数库调用
+// int my_strlen(char *arr)
+// {
+//     if (*arr != '\0')
+//     {
+//         return 1 + my_strlen(arr + 1);
+//     }
+//     return 0;
+// }
+
+// int main()
+// {
+//     char arr[] = "str";
+//     printf("%d\n", my_strlen(arr));
+//     return 0;
+// }
+
+/* 阶乘！n */
+// int len(int n)
+// {
+//     if (n <= 1)
+//     {
+//         return 1;
+//     }
+//     else
+//     {
+//         return n * len(n - 1);
+//     }
+// }
+// int main()
+// {
+//     int n;
+//     printf("请输入n的数值：");
+//     scanf("%d", &n);
+//     printf("n!=%d\n", len(n));
+//     return 0;
+// }
